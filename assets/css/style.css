@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.about-image {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .about-image {
+        max-width: 50%;
+        float: left;
+    }
+}
+
+.jumbotron {
+    background-color: white;
+}
+
+.portfolio-tile {
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center;
+    padding-top: 75%;
+    min-height: 200px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.portfolio-tile span {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+}
